@@ -1,1 +1,7 @@
-export default class ProductManager {}
+export default class ProductManager {
+   #path
+  
+  constructor(path) {
+    #path = path
+  }
+}
